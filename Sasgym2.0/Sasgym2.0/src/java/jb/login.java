@@ -8,7 +8,7 @@ package jb;
  *
  * @author TUF GAMING
  */
-//comment
+
 public class login {
     private String username, password;
 
