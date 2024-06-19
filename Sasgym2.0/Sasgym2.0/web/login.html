@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Login Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="assets/css/loginCSS.css">
+        <style>
+            .body{
+                background-image: url("assets/img/bg.jpg");
+            }
+        </style>
+    </head>
+    <body>
+        <div class="body"></div>
+        <div class="grad"></div>
+        <div class="header">
+            <div>Customer <span><br>Login</span></div>
+        </div>
+        <br>
+        <div class="login">
+            <form action="login.jsp" method="post">
+                <input type="text" placeholder="username" name="username" required><br>
+                <input type="password" placeholder="password" name="password" required><br>
+                <input type="submit" value="Login"><br>
+            </form>
+            <p><a href="register.html">Register Here!</a></p>
+            <p><a href="staffLogin.html">Staff Login</a></p>
+        </div>
+
+    </body>
+</html>

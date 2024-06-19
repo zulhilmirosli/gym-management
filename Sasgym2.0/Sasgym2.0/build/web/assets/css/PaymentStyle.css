@@ -1,0 +1,136 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : May 23, 2023, 9:36:13 PM
+    Author     : Muhammad Ariq Iskandar S62678
+*/
+
+body {
+    font-family: Arial;
+    font-size: 17px;
+    padding: 8px;
+}
+            
+body h1 {
+    text-align: center;
+}
+            
+body h4 {
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    margin: 0 -16px;
+}
+
+.atas {
+    background-image: url("background.jpg");
+    background-size: 100%;
+    width: auto;
+    font-size: 450%;
+    font-family: arial black;
+    color: black;
+}
+            
+.atas2 {
+    padding: 50px;
+    text-align: center;
+    text-indent: 50px;
+    line-height: 0.01;
+}
+            
+.checkout {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+}
+
+.info {
+    -ms-flex: 50%; /* IE10 */
+    flex: 50%;
+}
+
+.content {
+    -ms-flex: 75%; /* IE10 */
+    flex: 75%;
+}
+
+.checkout,
+.info,
+.content {
+    padding: 0 16px;
+}
+
+.container {
+    background-color: #f2f2f2;
+    padding: 5px 20px 15px 20px;
+    border: 1px solid lightgrey;
+    border-radius: 3px;
+}
+
+input[type=text] {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+label {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.icon-container {
+    margin-bottom: 20px;
+    padding: 7px 0;
+    font-size: 24px;
+}
+
+.btn {
+    background-color: #212121;
+    color: white;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.btn:hover {
+    background-color: black;
+}
+
+a {
+    color: #2196F3;
+}
+
+hr {
+    border: 1px solid lightgrey;
+}
+
+span.price {
+    float: right;
+    color: grey;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other (also change the direction - make the "cart" column go on top) */
+@media (max-width: 800px) {
+    .row {
+        flex-direction: column-reverse;
+    }
+    .checkout {
+        margin-bottom: 20px;
+    }
+}
